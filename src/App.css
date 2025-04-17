@@ -1,0 +1,118 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    width: 60rem;
+    margin: 7.5rem auto 7.5rem;
+    padding: 5rem;
+    background-color: #222;
+    border-radius: 1rem;
+}
+
+.todo-input-form {
+    display: flex;
+    width: 100%;
+}
+
+.todo-input {
+    flex-grow: 1;
+    height: inherit;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.todo-input-btn {
+    width: fit-content;
+    height: inherit;
+    border-radius: 0 1rem 1rem 0;
+    color: #000;
+    background-color: #1dcd9f;
+}
+
+.filter-search-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.todo-list-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.todo-list-li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+
+    background-color: #169976;
+    padding: 1rem .75rem;
+    border-radius: 1rem;
+}
+
+.edit-input-form {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.edit-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.list-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.li-btns {
+    font-size: 1.5rem;
+    padding: .75rem;
+    border-radius: .75rem;
+    font-weight: 500;
+}
+
+.li-icons {
+    font-size: 3.25rem;
+    color: #000;
+    cursor: pointer;
+}
+
+.del-all-btn {
+    background-color: #de1818;
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        width: 50rem;
+    }
+    .todo-list-li {
+        flex-direction: column;
+        gap: .75rem;
+    }
+}
+
+@media (max-width: 528px) {
+    .main-container {
+        width: 40rem;
+    }
+    .filter-search-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        width: 100%;
+    }
+}
+
+@media (max-width: 410px) {
+    .main-container {
+        width: 35rem;
+    }
+}

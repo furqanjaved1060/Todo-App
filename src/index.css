@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* #1dcd9f #169976 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Open Sans;
+    color: #fff;
+    background-color: #000;
+}
+
+#root {
+    height: inherit;
+    width: inherit;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 1;
+}
+
+p {
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+input {
+    font-size: 1.75rem;
+    outline: none;
+    border: none;
+    padding: 1rem .75rem;
+    border-radius: 1rem;
+}
+
+button {
+    font-size: 1.75rem;
+    border: none;
+    cursor: pointer;
+    padding: 1rem .75rem;
+    border-radius: 1rem;
+    color: #fff;
+    background-color: #222;
+}
+
+select {
+    font-size: 1.75rem;
+    border: none;
+    cursor: pointer;
+    padding: 1rem .75rem;
+    border-radius: 1rem;
+    background-color: #1dcd9f;
+}
+
+@media (max-width: 1340px) {
+    html {
+        font-size: 9px;
+    }
+}
+
+@media (min-width: 1640px) {
+    html {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 1840px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 2040px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 2240px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 2440px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 2640px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 2840px) {
+    html {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 3040px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 3240px) {
+    html {
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 3440px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+
