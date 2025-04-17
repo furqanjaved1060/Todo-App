@@ -22,3 +22,11 @@ A clean and intuitive task management web application designed to help users sta
 ## App Preview
 
 [Check it out on Netlify](https://todoapp465.netlify.app/)
+
+## Screenshots
+
+![Desktop 1](https://github.com/user-attachments/assets/a12b6c92-5703-4fd4-bf6d-183271de2b1a)
+![Desktop 2](https://github.com/user-attachments/assets/311f0263-9cc2-4624-876f-b0f861b61933)
+![Mobile 1](https://github.com/user-attachments/assets/0519b9ff-0b13-43d1-be6c-8a92a74fe803)
+![Mobile 2](https://github.com/user-attachments/assets/18eb72e1-b2a9-4d6e-84e2-d537ed4d1d70)
+
